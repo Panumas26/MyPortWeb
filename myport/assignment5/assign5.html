@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Blogger</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+	<div class="maintab">
+        <h1>BackBook</h1>
+    </div>
+
+	<div class="maincontent">
+		<div class="grid-container">
+			<div class="mainTopic">
+				<div><h2>You can memmo 3 only post.
+				</h2></div>
+				<hr>
+				<div><p>Memmo 1</p></div>
+				<div id="topic1"></div>
+				<hr>
+				<div><p>Memmo 2</p></div>
+				<div id="comment1"></div>
+				<hr>
+				<div><p>Memmo 3</p></div>
+				<div id="comment2"></div>
+			</div>
+			<div class="mainPostbox">
+				<div id="postbox">
+					<label for="text1">Your Memmo content :</label><br>
+					
+					<textarea name="text1" id="text1"></textarea> 
+					<br/>
+					<button type="button" onclick="PostFunc()">Post</button>
+					<button type="button" onclick="ClearFunc()">Clear</button>
+				</div>
+			</div>
+		</div>
+    </div>	
+	<br/>
+	<script src='main.js'></script>
+</body>
+<footer>
+	<div>
+		Thak you for using this page
+	</div>
+</footer>
+</html>

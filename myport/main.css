@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+body{
+    font-family:'Kanit', sans-serif;
+    font-size: 40;
+    font-weight: 1000;
+    margin: 0%;
+    background-image: url('pic/BG.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
+/* ---------------------------------------------------------------------- */
+
+html{
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+#innavbar{
+    margin-top: 10px;
+}
+/* ---------------------------------------------------------------------- */
+#navbar {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 30px;
+}
+  
+#navbar div>a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* The dropdown container */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+  
+/* Dropdown button */
+.dropdown .dropbtn {
+    font-size: 17px;
+    border: none;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 1000;
+    padding: 14px 16px ;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+}
+  
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #575454;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+/* Links inside the dropdown */
+.dropdown-content a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#navbar div>a:hover, .dropdown:hover .dropbtn {
+    background-color: #ddd;
+    color: black;
+}
+/* reference https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp
+ reference https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp*/
+/* ---------------------------------------------------------------------- */
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgb(54, 53, 53); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+  
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+} 
+/* reference https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
+/* ---------------------------------------------------------------------- */
+.maincontent{
+    margin-top: 60px;
+}
+
+.pic{
+    width: 20%;
+    border-radius: 50px;
+    vertical-align: middle;
+}
+
+.grid-container {
+	display: grid;
+    grid-template-columns: auto;
+}
+
+.grid-container > div{
+    font-size: 20px;
+    text-align: center;
+}
+
+#header{
+	grid-column: 1 / span 1;
+    background-color: rgb(110, 183, 247);
+}
+
+#main{
+	grid-column: 1 / span 1;
+}
+
+#footer{
+	grid-column: 1 / span 1;
+	background-color: rgb(152, 189, 243);
+}
+
+@media only screen and (max-width: 768px) {
+	.grid-container {
+		display: grid; 
+        grid-template-columns: auto;
+        grid-gap: 10px;
+		  
+	}
+
+	#header{
+		grid-column: 1 / span 1;
+	}
+	#menu{
+		grid-column: 2 / span 2;
+	}
+	#main{
+		grid-column: 1 / span 1;
+	}
+	#footer{
+		grid-column: 1 / span 1;
+	}
+}
+
+table{
+    width: 600px;
+    margin: auto;
+}
+
+th{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.flex-container {
+    width:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-container>div {
+    width: auto;
+    height: auto;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 2px solid  #68462e ;
+    padding: 1%;
+}
+/* unvisited link */
+a:link{
+	color: rgb(0, 0, 0); 
+}  
+/* visited link */
+ a:visited{
+	color: rgb(0, 0, 0); 
+}  
+/* mouse over link */  
+ a:hover{ 
+	color: #1e01a0; 
+}
+
+.gridpattern1{
+    background-color: rgb(184, 227, 233);
+    padding: 30px;
+}
+
+.gridpattern2{
+    background-color: rgb(156, 209, 245);
+    padding: 30px;
+}
+
+#gridhead{
+    background-color: rgb(107, 162, 235);
+}
+
+.mainpic{
+    max-width: 20%;
+    border-radius: 50%;
+    border: 10px double rgb(93, 142, 248);
+    background-color: rgb(189, 210, 238);
+}
+
+/* The hero image */
+.heroimg{
+    position: absolute;
+    z-index: -99;
+    top: 0;
+}
+
+.imgher{
+    display: block;
+    width: 100vw;
+    height: auto;
+}
+
+.herotext{
+    font-size: 50px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pic/MyHeroImg.jpg");
+    color: white;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+legend{
+    background-color: rgb(53, 125, 219);
+    border: 10px double rgb(48, 108, 236);
+    border-radius: 10ch;
+}
+
+.iconimg{
+    width: 100px;
+    padding: 20px;
+}
+
+.imgport{
+    width: 1080px;
+    height: 720px;
+}
