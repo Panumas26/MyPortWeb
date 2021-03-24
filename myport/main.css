@@ -454,8 +454,13 @@ legend{
         font-size: 10px;
     }
     .herotext{
-        font-size: 8px;
+        font-size: 10px;
     }
+    
+    p{
+        font-size: 10px;
+    }
+
     .maincontent{
         margin-top: 50px;
         text-align: center;
