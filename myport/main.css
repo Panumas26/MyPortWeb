@@ -269,23 +269,23 @@ legend{
         margin-top: 5px;
     }
     #navbar a {
-        font-size: 14px;
+        font-size: 20px;
     }
     #navbar div>a {
-        font-size: 7px;
+        font-size: 10px;
     }
     .dropdown .dropbtn {
-        font-size: 7px;
+        font-size: 10px;
     }
       
     .dropdown-content a {
-        font-size: 7px;
+        font-size: 10px;
     }
     .herotext{
         font-size: 10px;
     }
     .maincontent{
-        margin-top: 30px;
+        margin-top: 50px;
     }
     .grid-container > div{
         font-size: 10px;
