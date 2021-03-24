@@ -275,31 +275,14 @@ legend{
 	#footer{
 		grid-column: 1 / span 1;
 	}
-
-    .herotext{
-        font-size: 10px;
-    }
-}
-
-@media only screen and (max-width: 600px ) {
-	.grid-container {
-		display: grid; 
-        grid-template-columns: auto;	  
-	}
-	#innavbar{
-        margin-top: 10px;
-    }
-    /* ---------------------------------------------------------------------- */
     #navbar {
         background-color: #333;
         position: fixed;
         top: 0;
-        width: 100;
+        width: 100%;
         display: block;
         transition: top 0.3s;
-        margin: auto;
     }
-    
     #navbar a {
         float: left;
         display: block;
@@ -307,9 +290,8 @@ legend{
         text-align: center;
         padding: 15px;
         text-decoration: none;
-        font-size: 30px;
+        font-size: 20px;
     }
-      
     #navbar div>a {
         float: left;
         display: block;
@@ -317,18 +299,10 @@ legend{
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 10px;
     }
-    
-    /* The dropdown container */
-    .dropdown {
-        float: left;
-        overflow: hidden;
-    }
-      
-    /* Dropdown button */
     .dropdown .dropbtn {
-        font-size: 17px;
+        font-size: 10px;
         border: none;
         color: #f2f2f2;
         text-align: center;
@@ -357,21 +331,9 @@ legend{
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 10px;
     }
-      
-    /* Add a grey background color to dropdown links on hover */
-    .dropdown-content a:hover {
-        background-color: #ddd;
-    }
-      
-    /* Show the dropdown menu on hover */
-    .dropdown:hover .dropdown-content {
-        display: block;
-    }
-    
-    #navbar div>a:hover, .dropdown:hover .dropbtn {
-        background-color: #ddd;
-        color: black;
+    .herotext{
+        font-size: 10px;
     }
 }
