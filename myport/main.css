@@ -268,7 +268,7 @@ legend{
     grid-template-columns: repeat(5,1fr);
 }
 
-/* @media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1440px) {
 	.grid-container {
 		display: grid; 
         grid-template-columns: auto;	 
@@ -376,7 +376,7 @@ legend{
         text-align: center;
         grid-template-columns: 1fr;
     }
-} */
+}
 
 @media only screen and (max-width: 320px) {
 	.grid-container {
