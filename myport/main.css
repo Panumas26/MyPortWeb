@@ -200,24 +200,24 @@ a:link{
 }
 
 .gridpattern1{
-    background-color: rgb(184, 227, 233);
+    background-color: rgba(184, 227, 233, 0.719);
     padding: 30px;
 }
 
 .gridpattern2{
-    background-color: rgb(156, 209, 245);
+    background-color: rgb(156, 209, 245, 0.719);
     padding: 30px;
 }
 
 #gridhead{
-    background-color: rgb(107, 162, 235);
+    background-color: rgb(107, 162, 235, 0.719);
 }
 
 .mainpic{
     max-width: 20%;
     border-radius: 50%;
     border: 10px double rgb(93, 142, 248);
-    background-color: rgb(189, 210, 238);
+    background-color: rgb(189, 210, 238, 0.719);
 }
 
 /* The hero image */
@@ -260,6 +260,13 @@ legend{
     height: 720px;
 }
 
+.Skill-grid {
+    display: grid;
+    width: 320px;
+    font-size: 20px;
+    grid-template-columns: repeat(5,1fr);
+}
+
 @media only screen and (max-width: 1024px) {
 	.grid-container {
 		display: grid; 
@@ -282,7 +289,7 @@ legend{
         font-size: 10px;
     }
     .herotext{
-        font-size: 10px;
+        font-size: 20px;
     }
     .maincontent{
         margin-top: 50px;
@@ -301,8 +308,16 @@ legend{
         font-weight: bold;
     }
     .imgport{
-        width: 300px;
-        height: 160px;
+        width: 250px;
+        height: 130px;
     }
-
+    .Skill-grid {
+        display: grid;
+        width: 320px;
+        font-size: 20px;
+        margin: 80px auto;
+        grid-gap: 3rem;
+        text-align: center;
+        grid-template-columns: 1fr;
+    }
 }
