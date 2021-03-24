@@ -171,7 +171,6 @@ th{
     font-weight: bold;
 }
 
-
 .flex-container {
     width:auto;
     display: flex;
@@ -262,7 +261,7 @@ legend{
     height: 720px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
 	.grid-container {
 		display: grid; 
         grid-template-columns: auto;	  
@@ -276,6 +275,10 @@ legend{
 	#footer{
 		grid-column: 1 / span 1;
 	}
+
+    .herotext{
+        font-size: 10px;
+    }
 }
 
 @media only screen and (max-width: 600px ) {
