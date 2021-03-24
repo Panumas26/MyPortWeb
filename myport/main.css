@@ -140,11 +140,11 @@ html{
 .grid-container {
 	display: grid;
     grid-template-columns: auto;
+    text-align: center;
 }
 
 .grid-container > div{
     font-size: 20px;
-    text-align: center;
 }
 
 #header{
@@ -246,8 +246,8 @@ a:link{
 
 legend{
     background-color: rgb(53, 125, 219);
-    border: 10px double rgb(48, 108, 236);
-    border-radius: 10ch;
+    border: 20px double rgb(48, 108, 236);
+    border-radius: 80px;
 }
 
 .iconimg{
@@ -263,7 +263,7 @@ legend{
 @media only screen and (max-width: 1024px) {
 	.grid-container {
 		display: grid; 
-        grid-template-columns: auto;	  
+        grid-template-columns: auto;	 
 	}
     #innavbar{
         margin-top: 5px;
@@ -286,6 +286,7 @@ legend{
     }
     .maincontent{
         margin-top: 50px;
+        text-align: center;
     }
     .grid-container > div{
         font-size: 10px;
@@ -298,5 +299,9 @@ legend{
     th{
         font-size: 12px;
         font-weight: bold;
+    }
+    .imgport{
+        width: 320px;
+        height: 180px;
     }
 }
