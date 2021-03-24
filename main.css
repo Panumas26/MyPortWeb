@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
-/*reference https://fonts.google.com/specimen/Kanit?preview.text_type=custom*/
+/*font https://fonts.google.com/specimen/Kanit?preview.text_type=custom*/
+
+/* ---------------------------------body-------------------------------- */
 body{
     font-family:'Kanit', sans-serif;
     font-weight: 1000;
@@ -10,17 +12,17 @@ body{
     background-size: cover;
     height: 100%;
 }
-/* ---------------------------------------------------------------------- */
-
+/* ---------------------------------body-------------------------------- */
+/* ---------------------------------html-------------------------------- */
 html{
     scroll-behavior: smooth;
     height: 100%;
 }
-
+/* ---------------------------------html-------------------------------- */
+/*------------------------------------navbar--------------------------------*/
 #innavbar{
     margin-top: 10px;
 }
-/* ---------------------------------------------------------------------- */
 #navbar {
     background-color: #333;
     position: fixed;
@@ -104,9 +106,11 @@ html{
     background-color: #ddd;
     color: black;
 }
+/*------------------------------------navbar--------------------------------*/
 /* reference https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp
  reference https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp*/
 /* ---------------------------------------------------------------------- */
+/*--------------------------------Button to top-------------------------------*/
 #myBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
@@ -126,8 +130,10 @@ html{
 #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
 } 
+/*--------------------------------Button to top-------------------------------*/
 /* reference https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
 /* ---------------------------------------------------------------------- */
+/*-----------------------------------Content----------------------------------*/
 .maincontent{
     margin-top: 60px;
 }
@@ -219,30 +225,6 @@ a:link{
     background-color: rgb(189, 210, 238, 0.719);
 }
 
-/* The hero image */
-
-.imgher{
-    display: block;
-    width: 100vw;
-    height: auto;
-}
-
-#heroImage{
-    padding: 0px;
-}
-
-.herotext{
-    font-size: 50px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pic/MyHeroImg.jpg");
-    color: white;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    text-align: center;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 legend{
     background-color: rgb(53, 125, 219);
     border: 20px double rgb(48, 108, 236);
@@ -266,7 +248,35 @@ legend{
     margin: auto 550px;
     grid-template-columns: repeat(5,1fr);
 }
+/*-----------------------------------Content----------------------------------*/
 
+/* The hero image */
+/*-----------------------------------Hero Img----------------------------------*/
+.imgher{
+    display: block;
+    width: 100vw;
+    height: auto;
+}
+
+#heroImage{
+    padding: 0px;
+}
+
+.herotext{
+    font-size: 50px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pic/MyHeroImg.jpg");
+    color: white;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*-----------------------------------Hero Img----------------------------------*/
+/* reference https://www.w3schools.com/howto/howto_css_hero_image.asp */
+
+/*-----------------------------------Responsive----------------------------------*/
 @media only screen and (max-width: 1910px) {
 	.grid-container {
 		display: grid; 
@@ -553,3 +563,4 @@ legend{
         grid-template-columns: 1fr;
     }
 }
+/*-----------------------------------Responsive----------------------------------*/
