@@ -148,16 +148,14 @@ html{
 }
 
 #header{
-	grid-column: 1 / span 1;
     background-color: rgb(110, 183, 247);
 }
 
 #main{
-	grid-column: 1 / span 1;
+	text-align: center;
 }
 
 #footer{
-	grid-column: 1 / span 1;
 	background-color: rgb(152, 189, 243);
 }
 
@@ -214,7 +212,7 @@ a:link{
 }
 
 .mainpic{
-    max-width: 20%;
+    max-width: 40%;
     border-radius: 50%;
     border: 10px double rgb(93, 142, 248);
     background-color: rgb(189, 210, 238, 0.719);
@@ -268,6 +266,65 @@ legend{
     grid-template-columns: repeat(5,1fr);
 }
 
+@media only screen and (max-width: 1910px) {
+	.grid-container {
+		display: grid; 
+        grid-template-columns: auto;	 
+	}
+    #innavbar{
+        margin-top: 5px;
+    }
+    #navbar a {
+        font-size: 30px;
+    }
+    #navbar div>a {
+        font-size: 15px;
+    }
+    .dropdown .dropbtn {
+        font-size: 15px;
+    }
+      
+    .dropdown-content a {
+        font-size: 15px;
+    }
+    .herotext{
+        font-size: 30px;
+    }
+    .maincontent{
+        margin-top: 50px;
+        text-align: center;
+    }
+    .grid-container > div{
+        font-size: 20px;
+        text-align: center;
+    }
+    table{
+        width: 400px;
+        margin: auto;
+    } 
+    th{
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .imgport{
+        width: 250px;
+        height: 130px;
+    }
+    .iconimg{
+        width: 50px;
+        padding: 10px;
+    }
+    .skill-grid {
+        display: grid;
+        width: 320px;
+        font-size: 20px;
+        margin: 80px auto;
+        grid-gap: 3rem;
+        text-align: center;
+        grid-template-columns: 1fr;
+    }
+}
+
 @media only screen and (max-width: 1440px) {
 	.grid-container {
 		display: grid; 
@@ -301,7 +358,7 @@ legend{
         text-align: center;
     }
     table{
-        width: 200px;
+        width: 400px;
         margin: auto;
     } 
     th{
@@ -360,7 +417,7 @@ legend{
         text-align: center;
     }
     table{
-        width: 200px;
+        width: 300px;
         margin: auto;
     } 
     th{
@@ -406,7 +463,7 @@ legend{
         text-align: center;
     }
     table{
-        width: 200px;
+        width: 300px;
         margin: auto;
     } 
     th{
