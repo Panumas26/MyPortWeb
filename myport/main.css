@@ -221,16 +221,15 @@ a:link{
 }
 
 /* The hero image */
-.heroimg{
-    position: absolute;
-    z-index: -99;
-    top: 0;
-}
 
 .imgher{
     display: block;
     width: 100vw;
     height: auto;
+}
+
+#heroImage{
+    padding: 0px;
 }
 
 .herotext{
@@ -275,65 +274,26 @@ legend{
 	#footer{
 		grid-column: 1 / span 1;
 	}
-    #navbar {
-        background-color: #333;
-        position: fixed;
-        top: 0;
-        width: 100%;
-        display: block;
-        transition: top 0.3s;
+    #innavbar{
+        margin-top: 5px;
     }
     #navbar a {
-        float: left;
-        display: block;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 15px;
-        text-decoration: none;
-        font-size: 20px;
+        font-size: 14px;
     }
     #navbar div>a {
-        float: left;
-        display: block;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 10px;
+        font-size: 7px;
     }
     .dropdown .dropbtn {
-        font-size: 10px;
-        border: none;
-        color: #f2f2f2;
-        text-align: center;
-        text-decoration: none;
-        font-weight: 1000;
-        padding: 14px 16px ;
-        background-color: inherit;
-        font-family: inherit; /* Important for vertical align on mobile phones */
-        margin: 0; /* Important for vertical align on mobile phones */
+        font-size: 7px;
     }
       
-    /* Dropdown content (hidden by default) */
-    .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #575454;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-    }
-      
-    /* Links inside the dropdown */
     .dropdown-content a {
-        display: block;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 10px;
+        font-size: 7px;
     }
     .herotext{
         font-size: 10px;
+    }
+    .maincontent{
+        margin-top: 30px;
     }
 }
