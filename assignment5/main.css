@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+body{
+    background-color: rgb(194, 212, 250);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    font-family:'Kanit', sans-serif;
+    font-weight: 1000;
+    font-size: x-large;
+    margin: 0;
+    padding: 0;
+}
+
+.maintab{
+    background-color:  rgb(96, 81, 240);
+    position: fixed;
+    top: -2%;
+    width: 100%;
+	text-align: left;
+}
+
+.maincontent{
+    margin-top: 150px;
+}
+
+#topic1{
+	margin: 10px;
+    color: rgb(17, 6, 68);
+}
+
+#comment1{
+	margin: 10px;
+    color: rgb(17, 6, 68);
+}
+
+#comment2{
+	margin: 10px;
+    color: rgb(17, 6, 68);
+}
+
+#postbox{
+    text-align: left;
+    margin: 0;
+}
+
+footer{
+	background-color: rgb(105, 126, 243);
+    text-align: center;
+}
+
+h1{
+    color: azure;
+}
+
+h2{
+    color: rgb(59, 57, 57);
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-gap: 10px;
+}
+
+.grid-container > div{
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(194, 212, 250);
+}
+
+.mainTopic{
+    grid-column: 1 / span 1;
+}
+
+.mainPostbox{
+    grid-column: 2 / span 1;
+}
+@media only screen and (max-width: 767px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+    }
+    .mainTopic{
+        grid-column: 1 / span 1;
+    }
+    
+    .mainPostbox{
+        grid-column: 1 / span 1;
+    }
+}
+
+textarea{
+    background-color: azure;
+}
+
+button{
+    background-color: azure;
+}
