@@ -31,4 +31,3 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 // reference https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
-// reference https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
