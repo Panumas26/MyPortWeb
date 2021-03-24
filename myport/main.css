@@ -268,7 +268,7 @@ legend{
     grid-template-columns: repeat(5,1fr);
 }
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1000px) {
 	.grid-container {
 		display: grid; 
         grid-template-columns: auto;	 
@@ -277,27 +277,27 @@ legend{
         margin-top: 5px;
     }
     #navbar a {
-        font-size: 26px;
+        font-size: 30px;
     }
     #navbar div>a {
-        font-size: 13px;
+        font-size: 15px;
     }
     .dropdown .dropbtn {
-        font-size: 13px;
+        font-size: 15px;
     }
       
     .dropdown-content a {
-        font-size: 13px;
+        font-size: 15px;
     }
     .herotext{
-        font-size: 26px;
+        font-size: 30px;
     }
     .maincontent{
         margin-top: 50px;
         text-align: center;
     }
     .grid-container > div{
-        font-size: 13px;
+        font-size: 15px;
         text-align: center;
     }
     table{
@@ -312,10 +312,14 @@ legend{
         width: 250px;
         height: 130px;
     }
+    .iconimg{
+        width: 50px;
+        padding: 10px;
+    }
     .skill-grid {
         display: grid;
         width: 320px;
-        font-size: 13px;
+        font-size: 20px;
         margin: 80px auto;
         grid-gap: 3rem;
         text-align: center;
@@ -323,7 +327,53 @@ legend{
     }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 940px) {
+	.grid-container {
+		display: grid; 
+        grid-template-columns: auto;	 
+	}
+    #innavbar{
+        margin-top: 5px;
+    }
+    #navbar a {
+        font-size: 28px;
+    }
+    #navbar div>a {
+        font-size: 14px;
+    }
+    .dropdown .dropbtn {
+        font-size: 14px;
+    }
+      
+    .dropdown-content a {
+        font-size: 14px;
+    }
+    .herotext{
+        font-size: 28px;
+    }
+    .maincontent{
+        margin-top: 50px;
+        text-align: center;
+    }
+    .grid-container > div{
+        font-size: 14px;
+        text-align: center;
+    }
+    table{
+        width: 200px;
+        margin: auto;
+    } 
+    th{
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .imgport{
+        width: 250px;
+        height: 130px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
 	.grid-container {
 		display: grid; 
         grid-template-columns: auto;	 
@@ -366,6 +416,10 @@ legend{
     .imgport{
         width: 250px;
         height: 130px;
+    }
+    .iconimg{
+        width: 70px;
+        padding: 15px;
     }
     .skill-grid {
         display: grid;
@@ -400,7 +454,7 @@ legend{
         font-size: 10px;
     }
     .herotext{
-        font-size: 20px;
+        font-size: 12px;
     }
     .maincontent{
         margin-top: 50px;
@@ -421,6 +475,10 @@ legend{
     .imgport{
         width: 250px;
         height: 130px;
+    }
+    .iconimg{
+        width: 50px;
+        padding: 10px;
     }
     .skill-grid {
         display: grid;
