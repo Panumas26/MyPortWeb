@@ -162,28 +162,6 @@ html{
 	background-color: rgb(152, 189, 243);
 }
 
-@media only screen and (max-width: 768px) {
-	.grid-container {
-		display: grid; 
-        grid-template-columns: auto;
-        grid-gap: 10px;
-		  
-	}
-
-	#header{
-		grid-column: 1 / span 1;
-	}
-	#menu{
-		grid-column: 2 / span 2;
-	}
-	#main{
-		grid-column: 1 / span 1;
-	}
-	#footer{
-		grid-column: 1 / span 1;
-	}
-}
-
 table{
     width: 600px;
     margin: auto;
@@ -283,4 +261,26 @@ legend{
 .imgport{
     width: 1080px;
     height: 720px;
+}
+
+@media only screen and (max-width: 768px) {
+	.grid-container {
+		display: grid; 
+        grid-template-columns: auto;
+        grid-gap: 10px;
+		  
+	}
+
+	#header{
+		grid-column: 1 / span 1;
+	}
+	#menu{
+		grid-column: 2 / span 2;
+	}
+	#main{
+		grid-column: 1 / span 1;
+	}
+	#footer{
+		grid-column: 1 / span 1;
+	}
 }
